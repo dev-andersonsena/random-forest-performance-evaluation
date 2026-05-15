@@ -1,0 +1,25 @@
+Evaluating Random Forest Performance¶
+Estimated time needed: 30 minutes
+
+Objectives
+After completing this lab, you will be able to:
+
+Implement and evaluate the performance of random forest regression models on real-world data
+Interpret various evaluation metrics and visualizations
+Describe the feature importances for a regression model
+
+
+Introduction
+In this lab, you will:
+
+Use the California Housing data set included in scikit-learn to predict the median house price based on various attributes
+Create a random forest regression model and evaluate its performance
+Investigate the feature importances for the model
+Your goal in this lab is not to find the best regressor - it is primarily intended for you to practice interpreting modelling results in the context of a real-world problem.
+
+
+!pip install numpy==2.2.0
+!pip install pandas==2.2.3
+!pip install scikit-learn==1.6.0
+!pip install matplotlib==3.9.3
+!pip install scipy==1.14.1
